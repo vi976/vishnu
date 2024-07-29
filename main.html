@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy to Understand</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/78f7265fbb.js" crossorigin="anonymous"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>This is my Portfolio</p>
+                <h1>Hello, I am <span>John Samuel</span><br> from <span>INDIA</span></h1>
+            </div>
+        </div>
+    </div>
+    <!----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="contact.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Nesciunt unde deleniti exercitationem, quaerat voluptate molestias in harum consectetur quis quae nemo. <br>
+                        quisquam aperiam culpa repellendus repellat est consequatur fuga magnam?<br>
+                        Necessitatibus esse temporibus, assumenda, nostrum deleniti odit aspernatur dolores dicta vitae repellat.</p>
+                </div>
+            </div>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>HTML/CSS</span><br>Web designing</li>
+                    <li><span>Javascript</span><br>Web designing applications</li>
+                    <li><span>HTML/CSS/Javascript</span><br>Web designing applications</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023-Current</span><br>Pursuing graduation in SRKR ENGINEERING COLLEGE at Bhimavaram, West Godavari District</li>
+                    <li><span>2020-2023</span><br>Completed diploma in ECE in AANM & VVRSR POLYTECHNIC COLLEGE at Gudlavalleru, Krishna District</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--------------projects-------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>My Projects</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nesciunt unde deleniti exercitationem, quaerat voluptate molestias in harum consectetur quis quae nemo
+                        quisquam aperiam culpa repellendus repellat est consequatur fuga magnam?
+                        Necessitatibus esse temporibus, assumenda, nostrum deleniti odit aspernatur dolores dicta vitae repellat</p>
+                    <a href="#">Learn more</a>     
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>My Projects - HTML/CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nesciunt unde deleniti exercitationem, quaerat voluptate molestias in harum consectetur quis quae nemo
+                        quisquam aperiam culpa repellendus repellat est consequatur fuga magnam?
+                        Necessitatibus esse temporibus, assumenda, nostrum deleniti odit aspernatur dolores dicta vitae repellat</p>
+                    <a href="#">Learn more</a>     
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>My Projects - Javascript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nesciunt unde deleniti exercitationem, quaerat voluptate molestias in harum consectetur quis quae nemo
+                        quisquam aperiam culpa repellendus repellat est consequatur fuga magnam?
+                        Necessitatibus esse temporibus, assumenda, nostrum deleniti odit aspernatur dolores dicta vitae repellat</p>
+                    <a href="#">Learn more</a>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Resume--------->
+    <div id="resume">
+        <div class="container">
+            <h1 class="sub-title">Resume</h1>
+            <div class="sample-resume">
+                <div class="resume">
+                    <img src="sample resume.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjxtpXkkMWHAxUqNIMDHfbZBJEYABADGgJzZg&co=1&ase=2&gclid=CjwKCAjwko21BhAPEiwAwfaQCJu0qLxr0goeHSL01UnemZu1Pa8Lixlvef1iUfAYCniv36k96jLeWBoCSd8QAvD_BwE&ohost=www.google.com&cid=CAESV-D2zjTf5Vb0yHTC8nOzxXgf4CWSTRXaAn7f5uATI6MeFrK7QCwAXftWE9krWd2dm1f21l5a2BUwe7FW_aheBKe6ECRdpYgwfGkYlAI9b7GkATVPeeeQ9w&sig=AOD64_3fYb-QFX8PwIiH_xH9SCl7ohKdsw&q&nis=4&adurl&ved=2ahUKEwjJi5HkkMWHAxX9xDgGHcYkAUoQ0Qx6BAgJEAE" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div> 
+    <div class="copyright">
+        <p>Copyrights ©. Made with <i class="fa-solid fa-heart"></i> by copyrights team</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }        
+    </script> 
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw2BCUKegJIXvTNAlyspN9e_a3VQdg6t3ZrmCvgNlnYSyX8nNo-bREq_a_bdMbwk6-c/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.querySelector('#msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    message.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+</body>
+</html>
